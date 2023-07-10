@@ -43,13 +43,12 @@ body {
   width: 300px;
   height: 410px;
 }
-
 .header-title {
-  color: #333;
-  font-size: 60px;
-  font-weight: 400;
-  line-height: 80px;
-  text-transform: capitalize;
+    color: #333;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 80px;
+    text-transform: capitalize;
 }
 .skills-part {
   color: #ffad5a;
@@ -61,6 +60,7 @@ body {
   font-weight: 400;
   line-height: 28px;
   margin-bottom: 15px;
+  width: 580px;
 }
 .small-description {
   color: #434343;
@@ -69,3 +69,61 @@ body {
   margin-top: 20px;
 }
 
+/* Skills Section Style */
+
+.skill-title {
+  color: #13103a;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 70px;
+}
+.year-title {
+  color: #ffad5a;
+}
+
+.skill-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.skill-member1,
+.skill-member2,
+.skill-member3 {
+  width: 300px;
+  height: 300px;
+  padding: 20px;
+  margin-top: 50px;
+}
+.skill-member1 {
+  border-radius: 26px;
+  background: rgba(79, 157, 166, 0.1);
+}
+.skill-member2 {
+    border-radius: 26px;
+    background: rgba(255, 89, 89, 0.10);
+}
+.skill-member3 {
+    border-radius: 26px;
+    background: #FFF4D6;
+}
+
+.skill-small-title {
+  color: #000;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.skill-description {
+  color: #424242;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+}
+img.icon-image {
+  width: 130px;
+}
