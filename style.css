@@ -164,3 +164,8 @@ img.icon-image {
 .shape-img {
   margin-left: -70px;
 }
+
+.metting-section.revers {
+    display: flex;
+    flex-direction: row-reverse;
+}
