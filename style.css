@@ -44,11 +44,11 @@ body {
   height: 410px;
 }
 .header-title {
-    color: #333;
-    font-size: 60px;
-    font-weight: 400;
-    line-height: 80px;
-    text-transform: capitalize;
+  color: #333;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 80px;
+  text-transform: capitalize;
 }
 .skills-part {
   color: #ffad5a;
@@ -103,12 +103,12 @@ body {
   background: rgba(79, 157, 166, 0.1);
 }
 .skill-member2 {
-    border-radius: 26px;
-    background: rgba(255, 89, 89, 0.10);
+  border-radius: 26px;
+  background: rgba(255, 89, 89, 0.1);
 }
 .skill-member3 {
-    border-radius: 26px;
-    background: #FFF4D6;
+  border-radius: 26px;
+  background: #fff4d6;
 }
 
 .skill-small-title {
@@ -126,4 +126,41 @@ body {
 }
 img.icon-image {
   width: 130px;
+}
+
+.metting-section {
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.mitting-image img {
+  width: 400px;
+  height: 400px;
+}
+
+.mitting-image {
+  margin-right: 50px;
+  margin-left: -132px;
+}
+.mitting-title {
+  color: #333;
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 700;
+}
+.mitting-description {
+  color: #3e3e3e;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 10px 0px 20px;
+}
+.shape-img img {
+  width: 202px;
+}
+
+.shape-img {
+  margin-left: -70px;
 }
